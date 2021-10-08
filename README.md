@@ -3,7 +3,7 @@ Code for the paper "Vector-valued Distance and Gyrocalculus on the Space of Symm
 accepted at NeurIPS 2021.
 
 <p align="middle">
-  <img src="img/gyro-ops.png" width="70%" />
+  <img src="img/gyro-ops.png" width="90%" />
 </p>
 
 ## Requirements
@@ -27,7 +27,7 @@ Datasets are taken from https://github.com/villmow/datasets_knowledge_embedding
 
 This will preprocess all folders inside the `data` folder. 
 It looks for "train", "valid", "test" files in tsv format with triples of 
-_(head, relation, tail)_
+_"head    relation    tail"_
 
 
 ### 2. Run Experiments
@@ -72,7 +72,7 @@ The parameter `--metric` can be set with:
 
 ## TODO
 - [ ] Migrate to latest pytorch
-- [ ] Migrate to latest geoopt
+- [ ] Remove geoopt dependency / Migrate to latest geoopt 
 
 
 ## Citation
