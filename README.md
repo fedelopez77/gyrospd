@@ -1,5 +1,5 @@
 # GyroSPD
-Code for the paper "Vector-valued Distance and Gyrocalculus on the Space of Symmetric Positive Definite Matrices" 
+Code for the paper ["Vector-valued Distance and Gyrocalculus on the Space of Symmetric Positive Definite Matrices"](https://arxiv.org/abs/2110.13475) 
 accepted at NeurIPS 2021.
 
 <p align="middle">
@@ -80,5 +80,12 @@ The source code and data in this repository aims at facilitating the study of gr
 the space of symmetric positive definite matrices. 
 If you use the code/data, please cite it as follows:
 ```
-TBD
+@misc{lopez2021gyrospd,
+      title={Vector-valued Distance and Gyrocalculus on the Space of Symmetric Positive Definite Matrices}, 
+      author={Federico L{\'o}pez and Beatrice Pozzetti and Steve Trettel and Michael Strube and Anna Wienhard},
+      year={2021},
+      eprint={2110.13475},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
